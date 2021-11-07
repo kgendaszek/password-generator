@@ -24,15 +24,15 @@ var numbersArr = numbersStr.split("");
 
 
 do var userChoiceLength = prompt("Enter the desired password length between 8 & 20 characters: ");
-  while (userChoiceLength === "8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20");
+while (userChoiceLength === "8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20");{
 console.log(userChoiceLength);
 
-  if ( userChoiceLength != "8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20"){
-  alert("Invalid password length, please try again with 8-20 characters!!");}
-    var userChoiceLength = prompt("Enter the desired password length between 8 & 20 characters: ");
-    console.log(userChoiceLength)
-
-
+if (userChoiceLength !== "8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20") {
+  alert("Invalid password length, please try again with 8-20 characters!!");
+}
+userChoiceLength = prompt("Enter the desired password length between 8 & 20 characters: ");
+console.log(userChoiceLength);
+};
 // function passLength() 
 //   if (userChoiceLength < 8) {
 //     alert("Invalid password length, please try again with 8-20 characters!!");
@@ -95,13 +95,13 @@ for (var i = 0; i < userChoiceLength; i++) {
 console.log(aPassword.join(''));
 
 function writePassword() {
-  var password = generatePassword();
+  // var password = generatePassword();
   var passwordTextEl = document.getElementById("password");
 
-  passwordTextEl.value = password;
+  passwordTextEl.value = aPassword;
 
   return;
 }
 generatePasswordIDBtn.addEventListener("click", writePassword);
-
+writePassword.textContent = aPassword.join([""]);
 
