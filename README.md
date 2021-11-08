@@ -1,4 +1,4 @@
-# password-generator#
+# password-generator
   ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)

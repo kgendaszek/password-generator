@@ -63,7 +63,6 @@ var generatePassword = function () {
   var i = 8;
   for (var i = 0; i < userChoiceLength; i++) {
     var index = Math.floor(Math.random() * userCharPool.length);
-    console.log(userCharPool[index]);
     aPassword.push(userCharPool[index]);
   }
   console.log(aPassword.join(''));
