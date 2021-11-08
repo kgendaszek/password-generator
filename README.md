@@ -1,4 +1,4 @@
-# password-generator
+# Password Generator
   ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -6,6 +6,7 @@
 * [License](#license)
 * [Contributors](#contributors)
 * [Questions](#questions)
+* [Website] (#website)
 ## Description
 This is a random password generator using JavaScript.
 ## Install
@@ -18,10 +19,15 @@ No license.
 Katherine Gendaszek
 ## Questions
 If you have any questions about the application contact me directly at katieshake27@gmailcom
-# Contact
+## Contact
 katieshake27@gmail.com
-# Username
-Functional website:
+
+![Final image](./pwgen.png)
+
+
+
+
+## Website
 https://kgendaszek.github.io/password-generator/
 
 Check out my other work on GitHub.
